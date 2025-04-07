@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankush Portfolio</title>
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+   
+     <header class="header">
+      <a href="#" class="logo"> Ankush Portfolio</a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home "class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+     </header>
+     <section class="home" id="home">
+      <div class="home-content">
+        <h3> Hello, It's Me</h3>
+        <h1> Ankush koundal</h1>
+        <h3> And I'm a <span class="multiple-text"> </span></h3>
+        <p> I'm passionate about building scalable web applications and crafting seamless user experiences. 
+          From designing responsive frontends to managing robust backends..</p>
+      <div class="social-media">
+        <a href="https://www.linkedin.com/in/ankush-koundal-488bb72b6"><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.linkedin.com/in/ankush-koundal-488bb72b6"><i class='bx bxl-twitter' ></i></a>
+        <a href="www.linkedin.com/in/ankush-koundal-488bb72b6"><i class='bx bxl-instagram' ></i></a>
+        <a href="https://www.linkedin.com/in/ankush-koundal-488bb72b6"><i class='bx bxl-linkedin' ></i></a>
+      </div>
+      <a href ="c:\Users\Ankus\Downloads\Ankush Resumee.pdf" class="btn"> Download Cv</a>
+      </div>
+      <div class="home-img">
+        <img src="C:\Portfolio Website\Ankush Portfolio\images\aaaa.jpg" alt="images">
+      </div>
+     </section>
+
+     <section class="about" id="about">
+      <div class="about.img">
+        <img src="" alt="">
+      </div>
+      <div class="about-content">
+        <h2 class ="heading"> About <span> Me</span></h2>
+        <h3> Frontend Developer</h3>
+        <p> I'm a passionate front-end developer with a keen eye for design and a strong focus on creating responsive, user-friendly websites and applications. I specialize in HTML, CSS, JavaScript, and modern frameworks like React, ensuring seamless user experiences across all devices. I love bringing ideas to life in the browser and continuously strive to stay updated with the latest trends in web development.</p>
+        <div class="tabs">
+          <button class="tab-link active" onclick="openTab(event, 'skills')">Skills</button>
+          <button class="tab-link" onclick="openTab(event, 'experience')">Experience</button>
+          <button class="tab-link" onclick="openTab(event, 'education')">Education</button>
+        </div>
+        <div id="education" class="tab-content">
+          <ul>
+            <li><strong>Master Of Compuer Applications:</strong> Chandigarh University (2024–2026)</li>
+            <li><strong>Bachelor's Of Compuer Applications:</strong> Dronacharya Pg Clg (2021-2024)</li>
+            <li><strong>12th:</strong> Govt Sr sec School  (2020-2021)</li>
+          </ul>
+        </div>
+        <div id="skills" class="tab-content active">
+          <ul>
+            <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React</li>
+            <li><strong>Backend:</strong> Node.js, Express.js</li>
+            <li><strong>Database:</strong> MySQL, MongoDB</li>
+            <li><strong>Version Control:</strong> Git, GitHub</li>
+            <li><strong>Tools & Deployment:</strong> Postman, VS Code, Netlify, Heroku</li>
+          </ul>
+        </div>
+
+        <div id="experience" class="tab-content">
+          <ul>
+            <li><strong>Intern:</strong> Frontend Developer at TechLabs (2024)</li>
+            <li><strong>Freelancer:</strong> Web UI Projects (2023–2025)</li>
+          </ul>
+        </div>
+
+  
+      </div>
+    </div>
+  </section>
+    
+
+     <section class="services" id="services">
+      <h2 class="heading"> Our <span> Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class='bx bx-code-alt' ></i>
+          <h3> Web Development</h3>
+          <p> Web development involves creating websites using HTML, CSS, and JavaScript for the frontend, and languages like Java or Python for the backend. It combines design, functionality, and databases to build interactive web applications.</p>
+        <a href="abc.html" class="btn"> Read More</a>
+        </div>
+        <div class="services-box">
+          <i class='bx bx-mobile-alt'></i>
+          <h3> App Development</h3>
+          <p>App development focuses on building mobile applications for Android or iOS using tools like Flutter, React Native, or Java. It includes UI design, functionality, and seamless user experience.</p>
+          <a href="second.html" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class='bx bx-layer'></i>
+          <h3> Full Stack Developer</h3>
+          <p>Full stack development includes both frontend and backend services, involving user interface design, server-side logic, database management, and full deployment of web applications.</p>
+          <a href="Third.html" class="btn">Read More</a>
+        </div>
+       
+        
+      </div>
+     </section>
+
+     
+          <section class="portfolio" id="portfolio">
+            <h2 class="heading"> Latest <span>Project</span></h2>
+            <div class="portfolio-container">
+              <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                  <h4>E-commerce Website</h4>
+                  <p>Built a full-featured online store with product listings, cart, and user login using React, Node.js, and MongoDB.</p>
+                  <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+              </div>
+          
+              <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                  <h4>Online Library System</h4>
+                  <p>Created a library system with book issue/return and admin dashboard using Java, Spring Boot, and MySQL.</p>
+                  <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+              </div>
+          
+              <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                  <h4>Task Manager App</h4>
+                  <p>Developed a task tracking app with user authentication and CRUD functionality using MERN stack.</p>
+                  <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+              </div>
+          
+              <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+                <div class="portfolio-layer">
+                  <h4>Social Media Platform</h4>
+                  <p>Designed a mini social site with user profiles, posts, likes, and comments using Django and PostgreSQL.</p>
+                  <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+              </div>
+          
+              <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+                <div class="portfolio-layer">
+                  <h4>Online Food Delivery</h4>
+                  <p>Built a food ordering platform with menus, order tracking, and login using Angular, Express, and MongoDB.</p>
+                  <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+              </div>
+          
+              <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+                <div class="portfolio-layer">
+                  <h4>Job Portal System</h4>
+                  <p>Developed a portal where recruiters and job seekers can post and apply using PHP, Laravel, and MySQL.</p>
+                  <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+              </div>
+          
+            </div>
+          </section>
+          
+        </div>
+      </div>
+     </section>
+
+     <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form id="contactForm" onsubmit="showAlert(event)">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" required>
+          <input type="text" placeholder="Subject" required>
+        </div>
+        <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section> 
+    <script>
+      function showAlert(event) {
+        event.preventDefault();
+        alert("Thank you! Your message has been sent successfully.");
+        document.getElementById("contactForm").reset(); 
+      }
+    </script>
+     <footer class="footer">
+      <div class="footer-text">
+        <p> Copyright & Copy; 2025 by Ankush Koundal </p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+      </div>
+     </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
