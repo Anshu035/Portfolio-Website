@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>App Development</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f9fc;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+  background-color: #63c6c6;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  height: 80px;             
+  display: flex;
+  align-items: center;     
+  justify-content: center;
+  padding: 10px 20px;           
+  margin: 0;               
+}
+
+    .hero {
+      background-image: url('portfolio9.jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .main-content {
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-description {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-description p {
+      font-size: 18px;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .section-highlights {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .highlight-card {
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+      margin: 20px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .highlight-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .highlight-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .highlight-card h3 {
+      font-size: 22px;
+      color: #27ae60;
+      margin: 15px 0;
+    }
+
+    .highlight-card p {
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>App Development</h1>
+  </header>
+
+  <div class="main-content">
+    <section class="section-description">
+      <p>
+        App development involves creating software applications for mobile devices like smartphones and tablets. It includes both frontend UI and backend server-side logic. Developers ensure smooth performance, data security, and integration with hardware like GPS, camera, and sensors.
+      </p>
+    </section>
+
+    <section class="section-highlights">
+      <div class="highlight-card">
+        <h3>Flutter</h3>
+        <p>Google’s cross-platform toolkit for building apps for Android, iOS, web, and desktop from a single codebase.</p>
+      </div>
+
+      <div class="highlight-card">
+        <h3>React Native</h3>
+        <p>JavaScript framework powered by Facebook for building truly native apps using React and JavaScript.</p>
+      </div>
+
+      <div class="highlight-card">
+        <h3>Android</h3>
+        <p>Build native Android apps using Java or Kotlin for rich performance and deeper device integration.</p>
+      </div>
+
+      <div class="highlight-card">
+        <h3>iOS</h3>
+        <p>Develop native iOS apps using Swift and Xcode, tailored for Apple devices and optimized UX.</p>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
